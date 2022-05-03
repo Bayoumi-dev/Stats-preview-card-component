@@ -92,11 +92,11 @@ main {
   flex-direction: column;
   padding: 71px 72px 59px;
 }
-.stats-preview__body h1 {
+.stats-preview__body h3 {
   font-size: 2.4rem;
   color: var(--colors-white);
 }
-.stats-preview__body h1 .highlight {
+.stats-preview__body h3 .highlight {
   color: var(--colors-soft-violet);
 }
 .stats-preview__body p {
@@ -115,6 +115,7 @@ main {
   color: var(--colors-white);
   font-size: 1.6rem;
   font-weight: 700;
+  display: block; margin-bottom: 6px;
 }
 .stats-preview__stats .num {
   display: inline-block;
@@ -137,7 +138,7 @@ main {
   .stats-preview__body {
     padding: 50px 40px 40px;
   }
-  .stats-preview__body h1 {
+  .stats-preview__body h3 {
     font-size: 1.867rem;
   }
 }
@@ -184,7 +185,7 @@ main {
   .stats-preview__body {
     padding: 36px 24px 24px;
   }
-  .stats-preview__body h1 {
+  .stats-preview__body h3 {
     font-size: 1.467rem;
   }
   .stats-preview__stats .stat-number {

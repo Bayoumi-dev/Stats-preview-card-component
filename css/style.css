@@ -1,0 +1,47 @@
+/* Google Font - Inter */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+/* Google Font - Lexend Deca */
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+
+/* Variables */
+:root {
+  /* Colors - Primary */
+  --colors-very-dark-blue: hsl(233, 47%, 7%);
+  --colors-dark-blue: hsl(244, 38%, 16%);
+  --colors-soft-violet: hsl(277, 64%, 61%);
+  /* Colors - Neutral */
+  --colors-white: hsl(0, 0%, 100%);
+  --colors-slightly-white: hsla(0, 0%, 100%, 0.75);
+  --colors-slightly-white-II: hsla(0, 0%, 100%, 0.6);
+  /* Fonts */
+  --fonts-main: "Inter", sans-serif;
+  --fonts-paragraphs: "Lexend Deca", sans-serif;
+}
+/* Global Rules  */
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  font-size: 15px;
+}
+body {
+  font-family: var(--fonts-main);
+  cursor: default;
+}
+p {
+  font-family: var(--fonts-paragraphs);
+}
+/* Centering component */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 6px;
+  background-color: var(--colors-very-dark-blue);
+}

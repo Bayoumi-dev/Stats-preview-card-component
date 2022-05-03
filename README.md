@@ -13,7 +13,7 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 ## Screenshot
 
-![Stats preview card component](https://github.com/Bayoumi-dev/Stats-preview-card-component/blob/master/design/Screenshot.png)
+![Stats preview card component](https://github.com/Bayoumi-dev/Stats-preview-card-component/blob/master/design/screenshot.png)
 
 ## ⚙ Built with
 

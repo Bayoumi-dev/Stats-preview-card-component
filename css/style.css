@@ -90,7 +90,7 @@ main {
   flex-basis: 51.352%;
   display: flex;
   flex-direction: column;
-  padding: 71px 72px 59px;
+  padding: 71px 72px 64px;
 }
 .stats-preview__body h1 {
   font-size: 2.4rem;

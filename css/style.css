@@ -115,7 +115,8 @@ main {
   color: var(--colors-white);
   font-size: 1.6rem;
   font-weight: 700;
-  display: block; margin-bottom: 6px;
+  display: block;
+  margin-bottom: 6px;
 }
 .stats-preview__stats .num {
   display: inline-block;
